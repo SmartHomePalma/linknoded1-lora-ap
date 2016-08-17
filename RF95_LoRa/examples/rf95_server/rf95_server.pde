@@ -20,8 +20,8 @@ RH_RF95 rf95(15, 5); // For LinkNode D1
 // Need this on Arduino Zero with SerialUSB port (eg RocketScream Mini Ultra Pro)
 //#define Serial SerialUSB
 
-String deviceID = "0000000082";
-String apikey = "89d20a92-6ecd-4f0a-a147-d785d0273ca5";
+String deviceID = "xxxxxxxxxx";
+String apikey = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
 
 LinkSpriteIO linksprite(deviceID,apikey);
 
